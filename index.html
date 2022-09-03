@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workout Guide</title>
+  <link rel="icon" href="favicon.ico?v=5" />
+
+  <!--Bootstrap-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+  <!--Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheets -->
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/a33c5464ad.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!--Navbar Section-->
+
+      <div class="navbar navbar-expand-lg navbar-dark">
+        <a href="index.html" class="navbar-brand">Workout Guide</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="mailto:manikandanprabu2000@gmail.com" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Title Section-->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="intro-text">Begin your fitness journey from home!</h1>
+          <br />
+          <button type="button" class="btn btn-dark btn-lg download-btn">
+            <i class="fa-brands fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg download-btn">
+            <i class="fa-brands fa-google-play"></i> Download
+          </button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/workout.png" alt="iphone-mockup" class="title-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Sections -->
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/trainer.png" alt="" class="trainer-img">
+          <h3>Personalized Coach</h3>
+          <p>Professional guidance for fitness and diet by our experienced trainers.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/equipment.png" alt="" class="equipment-img">
+          <h3>No equipments needed</h3>
+          <p>Say bye to those hefty and expensive gym equipments, as the workout plans designed by our experts doesn't
+            need any! </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="images/fitness.png" alt="" class="fitness-img">
+          <h3>Customizable Workouts</h3>
+          <p>You can choose to make your own workout list! We also provide different plan suggestions according to your
+            skill level.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+      data-bs-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">One of the best workout apps I have ever used! The guidance by the experts was
+            upto expectations. Highly recommended!</h2>
+          <img class="profile-img" src="images/man.png" alt="man-profile">
+          <em>Pradeep, Chennai</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">One of the best workout apps I have ever used! The guidance by the experts was
+            upto expectations. Highly recommended!</h2>
+          <img class="profile-img" src="images/man.png" alt="man-profile">
+          <em>Manikandan, Coimbatore</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+  </section>
+
+  <!--  Pricing Section -->
+
+  <section id="pricing">
+    <h2 class="card-intro-title">A Plan for Everyone!</h2>
+    <p class="card-intro-text">Simple and affordable price plans for your fitness journey.</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>Customizable workouts</p>
+            <p>Free guidance by our software</p>
+            <p>Daily Alerts</p><br>
+            <button type="button" class="btn btn-outline-dark btn-lg col-12">Sign Up for Free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Intermediate</h3>
+          </div>
+          <div class="card-body">
+            <h2>&#x20B9 99 / mo</h2>
+            <p>Includes all the perks from free plan</p>
+            <p>Guidance from our experts</p>
+            <p>Unlimited Workouts</p><br>
+            <button type="button" class="btn btn-dark btn-lg col-12">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Master</h3>
+          </div>
+          <div class="card-body">
+            <h2>&#x20B9 199 / mo</h2>
+            <p>Includes all the perks from intermediate plan</p>
+            <p>Dedicated diet plans</p>
+            <p>Video conference with your expert</p><br>
+            <button type="button" class="btn btn-dark btn-lg col-12">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <br>
+    <h3 class="cta-text">Get Started Today!</h3>
+    <button type="button" class="btn btn-dark btn-lg download-btn">
+      <i class="fa-brands fa-apple"></i> Download
+    </button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn">
+      <i class="fa-brands fa-google-play"></i> Download
+    </button>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fa-brands fa-twitter footer-icons"></i>
+    <i class="fa-brands fa-instagram footer-icons"></i>
+    <i class="fa-brands fa-facebook footer-icons"></i>
+    <i class="fa-brands fa-snapchat footer-icons"></i>
+    <p>© Copyright Workout Guide</p>
+
+  </footer>
+
+</body>
+
+</html>
